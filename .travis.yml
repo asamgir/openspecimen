@@ -35,6 +35,5 @@ deploy:
   skip_cleanup: true
   
   on:
-    repo: openspecimen
     tags: true
     all_branches: true
