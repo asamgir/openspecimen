@@ -30,7 +30,7 @@ before_deploy:
 deploy:
   provider: releases
   
-  api_keys:
+  api_key:
     secure: 3e5cd618151b6e3460434e8f111913f65ddbd428
 
   file:
