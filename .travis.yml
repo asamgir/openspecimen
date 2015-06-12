@@ -30,7 +30,7 @@ before_deploy:
 deploy:
   provider: releases
   user: "asamgir"
-  password: "pirates123"  
+  password: "5GjWGappNRYWE3QEsjbS"  
   file:
     - "${RELEASE_FILE}"
   skip_cleanup: true
