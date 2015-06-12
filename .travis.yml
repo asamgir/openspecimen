@@ -29,8 +29,8 @@ before_deploy:
   
 deploy:
   provider: releases
-  user: asamgir
-  password: travis encrypt "pirates123" --add deploy.password
+  api_key:
+    secure: 59a76a68f1a4ecf42b5e7ed8bb772b15e2d14958
   file:
     - "${RELEASE_FILE}"
   skip_cleanup: true
