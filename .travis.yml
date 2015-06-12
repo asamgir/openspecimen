@@ -8,7 +8,6 @@ before_script:
   - npm install
   - bower install -f
   - cd ..
-  - travis encrypt "pirates123" --add deploy.password
 
 script: gradle build
 
@@ -31,7 +30,8 @@ before_deploy:
 deploy:
   provider: releases
   
-  user: asamgir
+  api_keys:
+    secure: 3e5cd618151b6e3460434e8f111913f65ddbd428
 
   file:
     - "${RELEASE_FILE}"
