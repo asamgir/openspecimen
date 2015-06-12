@@ -30,7 +30,7 @@ before_deploy:
 deploy:
   provider: releases
   user: asamgir
-  password: 59a76a68f1a4ecf42b5e7ed8bb772b15e2d14958
+  password: travis encrypt "pirates123" --add deploy.password
   file:
     - "${RELEASE_FILE}"
   skip_cleanup: true
