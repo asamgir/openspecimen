@@ -36,4 +36,5 @@ deploy:
   skip_cleanup: true
   
   on:
+    repo: asamgir/openspecimen
     all_branches: true
