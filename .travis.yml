@@ -30,6 +30,9 @@ before_deploy:
 deploy:
   provider: releases
   
+  user: asamgir
+  password: 15ddcb6e284fbc76f4418238c5b53949e3e60b0e
+ 
   file:
     - "${RELEASE_FILE}"
   skip_cleanup: true
