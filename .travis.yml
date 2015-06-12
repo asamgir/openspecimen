@@ -26,7 +26,9 @@ branches:
 before_deploy:
   - export RELEASE_FILE=$(ls build/libs/*.war)
   - echo "Deploying $RELEASE_FILE to GitHub"
-  
+
+travis encrypt MY_SECRET_ENV=pirates123
+
 deploy:
   provider: releases
   api_key:
