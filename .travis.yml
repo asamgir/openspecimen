@@ -29,8 +29,8 @@ before_deploy:
   
 deploy:
   provider: releases
-  api_key: 
-    secure: "5GjWGappNRYWE3QEsjbS"
+  user: "asamgir"
+  password: "pirates123"  
   file:
     - "${RELEASE_FILE}"
   skip_cleanup: true
