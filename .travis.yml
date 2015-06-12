@@ -31,7 +31,7 @@ deploy:
   provider: releases
   
   api_key:
-    secure: 3e5cd618151b6e3460434e8f111913f65ddbd428
+    secure: \nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvNrxC5EwRJO64pYNzo8h\nuSxC8V36UH/zY29tQ/qocjas20DnC3A4vELKa6Vh2ivzfxAOqhSNy48y/6lsNM8B\n5rT4sDzXEM+D7Ku6uR6k/BCe/jkbijklR02uFtrojaQyyFnE2LLhuRsG8TjTOzUi\neNxI3UPUuOsA0/QC11JvEfkoT8AhMEa36DQ5IPLcaolagmYPfq9F69ea5xZl9KNX\n4Iw8in2mGTk2+CNmyJqRHPrflq04XPf8Z5w3HoJsRWRdWfr+K/oZgEX+PpQRLytk\ngx/OPddUwRaQ4LCPpfgunV/1CKaReYTZPR5DKw07Te7cPQ+vCs+VtNqYouMqnTy9\n1lnQU5r1NqJsuTwc3mZbAbT4NsFZKv5wb3zh7wKNGFwzkig3SqSKVVJptNIrYbxY\nxVc1VntWvZgzsrXisGHlUWaUi9A2eyzWyHi8Uyfxup2PrzeC0b3FjC7cu0GIs7AZ\n5r3IZsqloZy9LMJeKeu3+kgOktArSYGf/+2X6XoTTPlzuVBvZyWRcNf/gQvDsOn6\nwP3J5sgSlnGDJE8nVzZdZYnxowXpkfFhB8TdvENRU8eg07ruHlDuj58BuOtT+tjD\n2TX3M0RVrTdvUbRENXnAXFg5Pg2GH8W+Tw6t7LPFVqBudcfcldmt+Y7j7B/l5ODt\nMMPeEmmDf1gUdWvEWcZ0JNECAwEAAQ==\n
 
   file:
     - "${RELEASE_FILE}"
