@@ -30,7 +30,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: 59a76a68f1a4ecf42b5e7ed8bb772b15e2d14958
+    secure: 5GjWGappNRYWE3QEsjbS
   file:
     - "${RELEASE_FILE}"
   skip_cleanup: true
