@@ -39,4 +39,5 @@ deploy:
   
   on:
     repo: asamgir/openspecimen
+    tags: true
     all_branches: true
