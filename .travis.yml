@@ -28,21 +28,11 @@ before_deploy:
   - echo "Deploying $RELEASE_FILE to GitHub"
 
 deploy:
-<<<<<<< HEAD
   provider: releases
   
   api_key:
     secure: "ltQnOf+lX8R1Qd1fzBs1h5M4GHMxUg2mASwQjl8dKOxcVIgosx0TN3TIKP7FRYv3J0vtzKVF8qsFrbqboLxS35n0hVBNNonyx5gYbu89w4auJepkLqvXRYrtqLFSFhqd2mtMX4T40ps7oFORtdneWLBKu8PuBR72P8EG67+QknJgrnTfaCqPo8NScSXTAdgoOZPAc8KXm+feoh5k7I/nCF01KDQRx0yYVLPA5JNfk8oLIev0BlLT3qK3khfefdqFUJfewvC/11BjhNpXCIVqpAAqP5RMNmCR2Es8wp/XImaNcYEB69bWan5h7tRchALSlTc42G8Y/zsCtbNU4j+yXRrXxnGFNTGPiWzO/ASLSX3rIVxzFN1RcIuQDdeDcWdLtGi2xxq0r2RlVuSHjX1263coHoXJEcb+E8TuSU1nMl3PnLlNnA+BkfFn6t9IcqRbx+3z07ER2zF21kXticag4eGN6QXNG5HxWkjR3iBAxB/qZ6L4l9AeptCtPYxb/XjboKxRkWSB482HaQJwEB1gCjVhLNq1i9nLKa2URGmL8LE6p+HOgOeEzc5Dn0blCeKoIOgEaEhO9QBNkrHW4BaKQJfeTfRPho1SiFdDvSDx8pAE9j2mp3GD926UVGCGPFUPRsi6jbWpBVD+V5Ycl16x4AIllDvUBhmzA+cJj2yK+Yk="
     
-=======
-  provider: nodejitsu
-  
-  user: asamgir
-  
-  api_key:
-    secure: sNhOF3z/MoMztB5BZsUA334tEAYahsTYAsHhBNXg1JSpqbXrY6QEHpWxhRsaaLP93R7xrOK/7FGhYmKK1IiClaAh9qr2QuAYu/c/p85vpP2w1PIwtPmFUvtM8wq9yX9E0knuD9VElN5lesU3gf/oQuOQdhMHYt7RAdFoOUVSyxq9+F5NO6c4ahT39HDc3fziUHznTnF+wzTnHMFjP2/+9KIzI0BmxppQ33tltz8aTDItd7Bq4Tf2XIc2DCxUL3RhiY3q3tddlCG/QcrLIxhHp0ZYOt2JPZlJKBEmt9Uj4cUczPFAONC/SHslsiSMoHWnh0YXwt0Zimce+9/Kk7oou8Y0BVTz20dcv7EVAubUuzCmCD6dLCmr+kyZxsUBYSW0KfyY7e9hwAMVWO0keQPCWQcuvZcSLxANS3kKEKJ1j6TE/xZVk0K52desReIkabsFe/SYdowsrTu8KRz698Egg4gNqVU9SzPx2zxIC1bE20wyO3rlhSW+wtt5WaMdQ3lQWWZe0OBzIGjoQlrpkBFd1+W0T84/YilRZ+NGU/ChBc3/s7w7zhCR9j7+VKEARXnEMSyEzMIx/bhSN0BpIueJDvOSMiwQV9zezfiF+v/Vw9a0fsvf5BOEyMNGhB97PIHPxLjN4ra41+aeKQUvgIM2SoZp7eXwDmZJmgf6mbq47U8=
-     
->>>>>>> fcfbf6266530ea3d4ccc101d9528e67cb86fbe82
   file:
     - "${RELEASE_FILE}"
   
