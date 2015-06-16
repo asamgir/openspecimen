@@ -14,13 +14,14 @@ notifications:
     - ajay.samgir@krishagni.com
     on_success: always
     on_failure: always
-
 before_deploy:
 - export RELEASE_FILE=$(ls build/libs/*.war)
 - echo "Deploying $RELEASE_FILE to GitHub"
 deploy:
   provider: releases
-  
+  user: asamgir
+  password:
+    secure: A7TlL/NL1UYNgNYMPp7NShLq/6oEdFcDA16+L7xMyk3cXjkA/1nxLVhrd1jJxoP4IDw7b82inO9x1QB8AN9sN8utWNlcUbp1S2ratQgpKG2MRWqjsK1EHOPQGcLcjsz2YHIp7rcHmwuESf/fpG8r3pYsNCrGw3/NkbrYva6II0jN2oJQ59xXAlrIIyKFwQ1j4dlkrpcO+gn8BLi3FGWRw1gDeMbCDlNn/shsbBiaalGo79jpUTMSygsIldV6Q3uYGmdvOS5TGDdggytQYyhWca82C7/GO0RfayZfTPIf/AYNOvVnYQnOMBIHpTyqc6amgGP7UL8JTYn9vdBH6JxzczXFPOQwzRtqd//6sKGJVXuFL4ZfQ7ruVZrV6omwjpmsVF3Sp1j2npSUJgeX5y9aRGqqYgNdqTZpQl506/3sbPX4yW3zyQWTGUxx9UFbpGiRKjE7yHTEdlpLg3f6Yikc4qtKHlTwZ4piKnWQizMJDDHsiVInvn3w5DBZASjWPRzCaQDLkqeBxsyZVGZk9Rzpb2VD+lzoOsS0/tmsrfo/9IHwPoTFUFRK3JDgPyRZKypWq1E2Dtbza4XoRReOzvTWqPGNXVAkTf/n2RbsTNHH/NJ+hAUuzGCSDDnATVbSwpr1oyZDmrjN6fvHJ4fb8cRxMEt2tHXFA+ogIhk0AnDmAv4=
   file:
   - ${RELEASE_FILE}
   skip_cleanup: true
